@@ -18,6 +18,7 @@ def incrementingFunction():
         with lock: 
                 i+=1 
                 a+=1
+#                print(i)
 
 def decrementingFunction():
     global i
@@ -26,6 +27,7 @@ def decrementingFunction():
         with lock:
                 i-=1
                 a+=1
+#                print(i)
 
 
 
