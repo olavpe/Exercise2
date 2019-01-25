@@ -17,8 +17,7 @@ def incrementingFunction():
     for a in range(1000000):
         with lock: 
                 i+=1 
-                a+=1
-#                print(i)
+                print(i)
 
 def decrementingFunction():
     global i
@@ -26,8 +25,7 @@ def decrementingFunction():
     for a in range(1000000):
         with lock:
                 i-=1
-                a+=1
-#                print(i)
+                print(i)
 
 
 
